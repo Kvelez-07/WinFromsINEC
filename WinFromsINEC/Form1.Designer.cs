@@ -160,7 +160,7 @@
             this.lblThread.Name = "lblThread";
             this.lblThread.Size = new System.Drawing.Size(148, 20);
             this.lblThread.TabIndex = 12;
-            this.lblThread.Text = "Procesando Hilo";
+            this.lblThread.Text = "Ejecutando Hilo:";
             // 
             // frmINEC
             // 
