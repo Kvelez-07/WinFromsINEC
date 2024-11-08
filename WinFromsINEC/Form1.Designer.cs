@@ -50,123 +50,135 @@
             this.lblProgress.AutoSize = true;
             this.lblProgress.BackColor = System.Drawing.Color.Transparent;
             this.lblProgress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProgress.Location = new System.Drawing.Point(551, 370);
+            this.lblProgress.Location = new System.Drawing.Point(372, 298);
+            this.lblProgress.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProgress.Name = "lblProgress";
-            this.lblProgress.Size = new System.Drawing.Size(79, 20);
+            this.lblProgress.Size = new System.Drawing.Size(67, 17);
             this.lblProgress.TabIndex = 23;
             this.lblProgress.Text = "Calcular";
             this.lblProgress.Visible = false;
             // 
             // prgAge
             // 
-            this.prgAge.Location = new System.Drawing.Point(555, 409);
+            this.prgAge.Location = new System.Drawing.Point(375, 329);
+            this.prgAge.Margin = new System.Windows.Forms.Padding(2);
             this.prgAge.Name = "prgAge";
-            this.prgAge.Size = new System.Drawing.Size(295, 44);
+            this.prgAge.Size = new System.Drawing.Size(221, 36);
             this.prgAge.TabIndex = 22;
             this.prgAge.Visible = false;
             // 
             // gridScholarship
             // 
             this.gridScholarship.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridScholarship.Location = new System.Drawing.Point(1032, 149);
+            this.gridScholarship.Location = new System.Drawing.Point(726, 118);
+            this.gridScholarship.Margin = new System.Windows.Forms.Padding(2);
             this.gridScholarship.Name = "gridScholarship";
             this.gridScholarship.RowHeadersWidth = 51;
             this.gridScholarship.RowTemplate.Height = 24;
-            this.gridScholarship.Size = new System.Drawing.Size(426, 496);
+            this.gridScholarship.Size = new System.Drawing.Size(355, 403);
             this.gridScholarship.TabIndex = 21;
             // 
             // gridGenderAge
             // 
             this.gridGenderAge.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridGenderAge.Location = new System.Drawing.Point(448, 149);
+            this.gridGenderAge.Location = new System.Drawing.Point(295, 118);
+            this.gridGenderAge.Margin = new System.Windows.Forms.Padding(2);
             this.gridGenderAge.Name = "gridGenderAge";
             this.gridGenderAge.RowHeadersWidth = 51;
             this.gridGenderAge.RowTemplate.Height = 24;
-            this.gridGenderAge.Size = new System.Drawing.Size(548, 496);
+            this.gridGenderAge.Size = new System.Drawing.Size(411, 403);
             this.gridGenderAge.TabIndex = 20;
             // 
             // gridAgeToGender
             // 
             this.gridAgeToGender.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridAgeToGender.Location = new System.Drawing.Point(29, 149);
+            this.gridAgeToGender.Location = new System.Drawing.Point(28, 118);
+            this.gridAgeToGender.Margin = new System.Windows.Forms.Padding(2);
             this.gridAgeToGender.Name = "gridAgeToGender";
             this.gridAgeToGender.RowHeadersWidth = 51;
             this.gridAgeToGender.RowTemplate.Height = 24;
-            this.gridAgeToGender.Size = new System.Drawing.Size(390, 496);
+            this.gridAgeToGender.Size = new System.Drawing.Size(252, 403);
             this.gridAgeToGender.TabIndex = 19;
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(1361, 687);
+            this.btnExit.Location = new System.Drawing.Point(1021, 558);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(97, 40);
+            this.btnExit.Size = new System.Drawing.Size(73, 32);
             this.btnExit.TabIndex = 18;
             this.btnExit.Text = "Salir";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnLoadFile
             // 
-            this.btnLoadFile.Location = new System.Drawing.Point(1191, 687);
+            this.btnLoadFile.Location = new System.Drawing.Point(893, 558);
+            this.btnLoadFile.Margin = new System.Windows.Forms.Padding(2);
             this.btnLoadFile.Name = "btnLoadFile";
-            this.btnLoadFile.Size = new System.Drawing.Size(164, 40);
+            this.btnLoadFile.Size = new System.Drawing.Size(123, 32);
             this.btnLoadFile.TabIndex = 17;
             this.btnLoadFile.Text = "Cargar Archivo";
             this.btnLoadFile.UseVisualStyleBackColor = true;
-            this.btnLoadFile.Click += new System.EventHandler(this.btnLoadFile_Click_1);
+            this.btnLoadFile.Click += new System.EventHandler(this.btnLoadFile_Click);
             // 
             // lblScholarship
             // 
             this.lblScholarship.AutoSize = true;
-            this.lblScholarship.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScholarship.Location = new System.Drawing.Point(1159, 111);
+            this.lblScholarship.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScholarship.Location = new System.Drawing.Point(774, 87);
+            this.lblScholarship.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblScholarship.Name = "lblScholarship";
-            this.lblScholarship.Size = new System.Drawing.Size(174, 16);
+            this.lblScholarship.Size = new System.Drawing.Size(265, 25);
             this.lblScholarship.TabIndex = 16;
             this.lblScholarship.Text = "Lista segun Escolaridad";
             // 
             // lblGenderAge
             // 
             this.lblGenderAge.AutoSize = true;
-            this.lblGenderAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenderAge.Location = new System.Drawing.Point(601, 111);
+            this.lblGenderAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lblGenderAge.Location = new System.Drawing.Point(323, 87);
+            this.lblGenderAge.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGenderAge.Name = "lblGenderAge";
-            this.lblGenderAge.Size = new System.Drawing.Size(228, 16);
+            this.lblGenderAge.Size = new System.Drawing.Size(353, 25);
             this.lblGenderAge.TabIndex = 15;
             this.lblGenderAge.Text = "Lista segun Sexo y Grupo Etario";
             // 
             // lblAgeToGender
             // 
             this.lblAgeToGender.AutoSize = true;
-            this.lblAgeToGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAgeToGender.Location = new System.Drawing.Point(131, 111);
+            this.lblAgeToGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lblAgeToGender.Location = new System.Drawing.Point(56, 87);
+            this.lblAgeToGender.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAgeToGender.Name = "lblAgeToGender";
-            this.lblAgeToGender.Size = new System.Drawing.Size(129, 16);
+            this.lblAgeToGender.Size = new System.Drawing.Size(197, 25);
             this.lblAgeToGender.TabIndex = 14;
             this.lblAgeToGender.Text = "Edad segun Sexo";
             // 
             // txtThreadId
             // 
-            this.txtThreadId.Location = new System.Drawing.Point(183, 19);
+            this.txtThreadId.Location = new System.Drawing.Point(137, 15);
+            this.txtThreadId.Margin = new System.Windows.Forms.Padding(2);
             this.txtThreadId.Name = "txtThreadId";
-            this.txtThreadId.Size = new System.Drawing.Size(100, 22);
+            this.txtThreadId.Size = new System.Drawing.Size(76, 20);
             this.txtThreadId.TabIndex = 13;
             // 
             // lblThread
             // 
             this.lblThread.AutoSize = true;
             this.lblThread.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThread.Location = new System.Drawing.Point(17, 19);
+            this.lblThread.Location = new System.Drawing.Point(13, 15);
+            this.lblThread.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblThread.Name = "lblThread";
-            this.lblThread.Size = new System.Drawing.Size(148, 20);
+            this.lblThread.Size = new System.Drawing.Size(127, 17);
             this.lblThread.TabIndex = 12;
             this.lblThread.Text = "Ejecutando Hilo:";
             // 
             // frmINEC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1475, 746);
+            this.ClientSize = new System.Drawing.Size(1106, 606);
             this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.prgAge);
             this.Controls.Add(this.gridScholarship);
@@ -179,6 +191,7 @@
             this.Controls.Add(this.lblAgeToGender);
             this.Controls.Add(this.txtThreadId);
             this.Controls.Add(this.lblThread);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmINEC";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.gridScholarship)).EndInit();
